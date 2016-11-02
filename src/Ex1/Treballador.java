@@ -1,4 +1,4 @@
-package ex2.uf2.m5;
+package Ex1;
 
 public class Treballador {
 

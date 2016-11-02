@@ -1,5 +1,6 @@
-package ex2.uf2.m5;
+package Ex1;
 
+import Ex1.CostPersonal;
 import java.text.DecimalFormat;
 import java.util.Random;
 
