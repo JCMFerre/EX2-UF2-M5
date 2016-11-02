@@ -1,49 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ex2.uf2.m5;
 
-/**
- *
- * @author Reskitow
- */
-public enum Treballador {
-    DIRECTOR("DIRECTOR", 0, 0), SUBDIRECTOR("SUBDIRECTOR", 0, 0);
+public class Treballador {
 
-    private String tipusTreballador;
-    private int nomina;
-    private int horesExtres;
+    public static final int DIRECTOR = 0;
+    public static final int SUBDIRECTOR = 1;
+    private int tipusTreballador;
+    private float nomina;
+    private float horesExtres;
 
-    private Treballador(String tipusTreballador, int nomina, int horesExtres) {
+    public Treballador(int tipusTreballador, float nomina, float horesExtres) {
         this.tipusTreballador = tipusTreballador;
         this.nomina = nomina;
         this.horesExtres = horesExtres;
     }
 
-    public String getTipusTreballador() {
+    public int getTipusTreballador() {
         return tipusTreballador;
     }
 
-    public int getNomina() {
+    public float getNomina() {
         return nomina;
     }
 
-    public int getHoresExtres() {
+    public float getHoresExtres() {
         return horesExtres;
-    }
-
-    public void setTipusTreballador(String tipusTreballador) {
-        this.tipusTreballador = tipusTreballador;
-    }
-
-    public void setNomina(int nomina) {
-        this.nomina = nomina;
-    }
-
-    public void setHoresExtres(int horesExtres) {
-        this.horesExtres = horesExtres;
     }
 
 }
