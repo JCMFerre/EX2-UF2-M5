@@ -1,4 +1,4 @@
-package Ex1;
+package Part1_OLD_CODE;
 
 public class CostPersonal {
 

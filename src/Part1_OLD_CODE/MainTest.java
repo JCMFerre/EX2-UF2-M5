@@ -1,6 +1,5 @@
-package Ex1;
+package Part1_OLD_CODE;
 
-import Ex1.CostPersonal;
 import java.text.DecimalFormat;
 import java.util.Random;
 
