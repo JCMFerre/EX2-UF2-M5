@@ -15,9 +15,9 @@ import static org.junit.Assert.*;
  *
  * @author Reskitow
  */
-public class JUnitPart2_OLD_CODE {
+public class JUnitPart2 {
 
-    public JUnitPart2_OLD_CODE() {
+    public JUnitPart2() {
     }
 
     @BeforeClass
@@ -36,9 +36,5 @@ public class JUnitPart2_OLD_CODE {
     public void tearDown() {
     }
 
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
+    // Tests realitzats.
 }
