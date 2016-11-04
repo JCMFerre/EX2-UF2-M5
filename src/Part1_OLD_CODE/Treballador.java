@@ -4,6 +4,8 @@ public class Treballador {
 
     public static final int DIRECTOR = 0;
     public static final int SUBDIRECTOR = 1;
+    public static final int OPERARI = 2;
+    public static final int PREU_HORA_EXTRA = 20;
     private int tipusTreballador;
     private float nomina;
     private float horesExtres;

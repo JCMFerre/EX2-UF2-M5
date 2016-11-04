@@ -12,7 +12,7 @@ public class MainTest {
                     2000, 60);
         }
         System.out.println("Cost total del personal: "
-                + new DecimalFormat("#.##").format(CostPersonal.CostDelPersonal(treballadors)));
+                + new DecimalFormat("#.##").format(CostPersonal.costDelPersonal(treballadors)));
     }
 
 }
