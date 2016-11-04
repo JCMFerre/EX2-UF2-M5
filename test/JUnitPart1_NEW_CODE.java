@@ -37,17 +37,19 @@ public class JUnitPart1_NEW_CODE {
     @After
     public void tearDown() {
     }
-    
+
     // Tests realitzats.
     @Test
     public void calcularNominaOperari() {
         Operari o = new Operari("N", 2000F, 2F);
         assertEquals(2040F, o.getNomina(), 0);
+        assertTrue(o.getNomina() == 2040F);
     }
 
     @Test
     public void calcularNominaDirectiu() {
         Directiu d = new Directiu("N", 2000F);
+        assertEquals(2000F, d.getNomina(), 0);
         assertTrue(d.getNomina() == 2000F);
     }
 }
