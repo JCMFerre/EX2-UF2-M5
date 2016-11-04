@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 
+import Part2.DNI;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -39,6 +40,7 @@ public class JUnitPart2 {
     // Tests realitzats.
     @Test
     public void comprobarDNI(){
-        
+        DNI dni = new DNI();
+        assertTrue(dni.esValid("77125997M"));
     }
 }

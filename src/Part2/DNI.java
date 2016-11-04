@@ -14,11 +14,14 @@ public class DNI {
         this.nif = nif;
     }
 
+    public DNI() {
+    }
+
     public boolean esValid(String dni) {
         boolean correcte = false;
         if (validarLongitud(dni)) {
             try {
-                numNif = Integer.parseInt(dni.substring(0, dni.length()));
+                numNif = Integer.parseInt(dni.substring(0, dni.length() - 1));
                 charNif = dni.charAt(dni.length() - 1);
                 if (comprovarLletra()) {
                     correcte = true;
