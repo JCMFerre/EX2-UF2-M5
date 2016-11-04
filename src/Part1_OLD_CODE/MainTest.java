@@ -11,7 +11,7 @@ public class MainTest {
             treballadors[i] = new Treballador(new Random().nextInt(2),
                     2000, 60);
         }
-        System.out.println("Cost total del personal: " 
+        System.out.println("Cost total del personal: "
                 + new DecimalFormat("#.##").format(CostPersonal.CostDelPersonal(treballadors)));
     }
 
