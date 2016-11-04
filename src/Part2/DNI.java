@@ -8,7 +8,6 @@ public class DNI {
     private final char[] llista = {'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P',
         'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'};
     private final int LONGITUD_AMB_LLETRA = 9;
-    private final int LONGITUD_SENSE_LLETRA = 8;
 
     public DNI(String nif) {
         this.nif = nif;
@@ -34,8 +33,7 @@ public class DNI {
     }
 
     public boolean validarLongitud(String dni) {
-        return (dni.length() == LONGITUD_AMB_LLETRA
-                && dni.length() == LONGITUD_SENSE_LLETRA);
+        return (dni.length() == LONGITUD_AMB_LLETRA);
     }
 
     private boolean comprovarLletra() {

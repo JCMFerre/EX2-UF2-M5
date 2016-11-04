@@ -39,8 +39,16 @@ public class JUnitPart2 {
 
     // Tests realitzats.
     @Test
-    public void comprobarDNI(){
+    public void comprobarDNI() {
         DNI dni = new DNI();
         assertTrue(dni.esValid("77125997M"));
+        assertFalse(dni.esValid("77125f97M"));
+    }
+
+    @Test
+    public void comprobarLlargada() {
+        DNI dni = new DNI();
+        assertEquals(true, dni.validarLongitud("77125597m"));
+        assertEquals(false, dni.validarLongitud("771257m"));
     }
 }
