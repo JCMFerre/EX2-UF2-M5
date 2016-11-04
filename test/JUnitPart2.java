@@ -37,4 +37,8 @@ public class JUnitPart2 {
     }
 
     // Tests realitzats.
+    @Test
+    public void comprobarDNI(){
+        
+    }
 }
