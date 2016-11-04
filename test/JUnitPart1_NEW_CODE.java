@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 
+import Part1_NEW_CODE.Directiu;
+import Part1_NEW_CODE.Operari;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -35,10 +37,17 @@ public class JUnitPart1_NEW_CODE {
     @After
     public void tearDown() {
     }
+    
+    // Tests realitzats.
+    @Test
+    public void calcularNominaOperari() {
+        Operari o = new Operari("N", 2000F, 2F);
+        assertEquals(2040F, o.getNomina(), 0);
+    }
 
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
+    @Test
+    public void calcularNominaDirectiu() {
+        Directiu d = new Directiu("N", 2000F);
+        assertTrue(d.getNomina() == 2000F);
+    }
 }
