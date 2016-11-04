@@ -1,5 +1,9 @@
 package Part1_NEW_CODE;
 
+/**
+ *
+ * @author Joan Creus Martin.
+ */
 public class Operari extends Empleado {
 
     private float horesExtres;

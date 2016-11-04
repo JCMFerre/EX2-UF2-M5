@@ -1,5 +1,9 @@
 package Part1_OLD_CODE;
 
+/**
+ * 
+ * @author Joan Creus Martin.
+ */
 public class Treballador {
 
     public static final int DIRECTOR = 0;

@@ -1,5 +1,9 @@
 package Part1_NEW_CODE;
 
+/**
+ *
+ * @author Joan Creus Martin.
+ */
 public class MainP1NC {
 
     public static void main(String[] args) {
